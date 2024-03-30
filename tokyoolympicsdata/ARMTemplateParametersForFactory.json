@@ -1,0 +1,60 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "tokyoolympicsdata"
+		},
+		"Atheles_linked_password": {
+			"value": ""
+		},
+		"Coaches_linked_password": {
+			"value": ""
+		},
+		"Entries_gender_linked_password": {
+			"value": ""
+		},
+		"Medal_Linked_password": {
+			"value": ""
+		},
+		"Target_link_Tokyo_accountKey": {
+			"value": ""
+		},
+		"Teams_linked_password": {
+			"value": ""
+		},
+		"Atheles_linked_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/Nithin3388/tokyo-olympic-azure-data-engineering-project/main/data/Athletes.csv"
+		},
+		"Atheles_linked_properties_typeProperties_userName": {
+			"value": "Nithin3388"
+		},
+		"Coaches_linked_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/Nithin3388/tokyo-olympic-azure-data-engineering-project/main/data/Coaches.csv"
+		},
+		"Coaches_linked_properties_typeProperties_userName": {
+			"value": "Nithin3388"
+		},
+		"Entries_gender_linked_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/Nithin3388/tokyo-olympic-azure-data-engineering-project/main/data/EntriesGender.csv"
+		},
+		"Entries_gender_linked_properties_typeProperties_userName": {
+			"value": "Nithin3388"
+		},
+		"Medal_Linked_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/Nithin3388/tokyo-olympic-azure-data-engineering-project/main/data/Medals.csv"
+		},
+		"Medal_Linked_properties_typeProperties_userName": {
+			"value": "Nithin3388"
+		},
+		"Target_link_Tokyo_properties_typeProperties_url": {
+			"value": "https://nithindatalakegen2.dfs.core.windows.net/"
+		},
+		"Teams_linked_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/Nithin3388/tokyo-olympic-azure-data-engineering-project/main/data/Teams.csv"
+		},
+		"Teams_linked_properties_typeProperties_userName": {
+			"value": "Nithin3388"
+		}
+	}
+}
