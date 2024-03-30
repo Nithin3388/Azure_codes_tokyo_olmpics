@@ -9,7 +9,7 @@
 					{
 						"activity": "Delete1",
 						"dependencyConditions": [
-							"Succeeded"
+							"Completed"
 						]
 					}
 				],
