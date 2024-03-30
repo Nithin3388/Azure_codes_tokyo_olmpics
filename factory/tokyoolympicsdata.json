@@ -1,0 +1,9 @@
+{
+	"name": "tokyoolympicsdata",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "6bb61041-58d0-4f64-83e4-5b458b1c97c2",
+		"tenantId": "64d710ce-1749-4514-a450-f8eb993c714d"
+	}
+}
