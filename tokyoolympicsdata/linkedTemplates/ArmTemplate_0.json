@@ -725,7 +725,7 @@
 							"enableLogging": true,
 							"storeSettings": {
 								"type": "AzureBlobFSReadSettings",
-								"fileListPath": "tokyo-olympics/raw/*",
+								"fileListPath": "tokyo-olympics/raw/",
 								"enablePartitionDiscovery": false
 							}
 						}
