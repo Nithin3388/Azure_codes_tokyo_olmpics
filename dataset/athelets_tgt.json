@@ -1,0 +1,24 @@
+{
+	"name": "athelets_tgt",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Target_link_Tokyo",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "atheletes.csv",
+				"folderPath": "raw",
+				"fileSystem": "tokyo-olympics"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

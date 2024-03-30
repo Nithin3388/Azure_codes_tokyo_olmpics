@@ -5,14 +5,7 @@
 			{
 				"name": "Athletes",
 				"type": "Copy",
-				"dependsOn": [
-					{
-						"activity": "Delete1",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"timeout": "0.12:00:00",
 					"retry": 0,
@@ -67,7 +60,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Tokyo_target",
+						"referenceName": "athelets_tgt",
 						"type": "DatasetReference"
 					}
 				]
@@ -131,7 +124,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Tokyo_target",
+						"referenceName": "Coaches_tgt",
 						"type": "DatasetReference"
 					}
 				]
@@ -195,7 +188,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Tokyo_target",
+						"referenceName": "EntriesGender_tgt",
 						"type": "DatasetReference"
 					}
 				]
@@ -259,7 +252,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Tokyo_target",
+						"referenceName": "Medals_tgt",
 						"type": "DatasetReference"
 					}
 				]
@@ -323,42 +316,10 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Tokyo_target",
+						"referenceName": "Team_tgt",
 						"type": "DatasetReference"
 					}
 				]
-			},
-			{
-				"name": "Delete1",
-				"type": "Delete",
-				"dependsOn": [],
-				"policy": {
-					"timeout": "0.12:00:00",
-					"retry": 0,
-					"retryIntervalInSeconds": 30,
-					"secureOutput": false,
-					"secureInput": false
-				},
-				"userProperties": [],
-				"typeProperties": {
-					"dataset": {
-						"referenceName": "Tokyo_target",
-						"type": "DatasetReference"
-					},
-					"logStorageSettings": {
-						"linkedServiceName": {
-							"referenceName": "Target_link_Tokyo",
-							"type": "LinkedServiceReference"
-						},
-						"path": "tokyo-olympics"
-					},
-					"enableLogging": true,
-					"storeSettings": {
-						"type": "AzureBlobFSReadSettings",
-						"fileListPath": "tokyo-olympics/raw/",
-						"enablePartitionDiscovery": false
-					}
-				}
 			}
 		],
 		"annotations": [],
